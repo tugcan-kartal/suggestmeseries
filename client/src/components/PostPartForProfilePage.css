@@ -1,0 +1,57 @@
+.allofpostpartinprofilepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderofpostinprofilepage{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 31%;
+    height: 50%;
+    margin-left: 5%;
+    z-index: 100;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+}
+
+.imginpostinprofilepage{
+    width: 30vw;
+    height: 50vh;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+.subjectinpostinprofilepage{
+    font-size: 1.5rem;
+    width: 30vw;
+    height: 10vh;
+    overflow: scroll;
+    margin-bottom: 10%;
+    background-color: #F0F2F5;
+}
+
+.updatebuttoninprofilepage{
+    background-color: #E94C6B;
+    width: 10vw;
+    height: 5vh;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 4vw;
+}
+
+.deletebuttoninprofilepage{
+    background-color: #4DBE62;
+    width: 10vw;
+    height: 5vh;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+

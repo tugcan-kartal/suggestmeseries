@@ -1,0 +1,75 @@
+.allofaddpostpart{
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 28%;
+    height: 55%;
+    position: relative;
+    left: 34vw;
+    top: 10vh;
+    display: none;
+    border-radius: 10%;
+}
+
+.inputforaddpostpart{
+    margin: 2vh;
+    width: 25vw;
+    height: 5vh;
+    border: 1px solid gainsboro;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 5%;
+    color: black;
+    padding: 1%;
+    margin-left: 1vw;
+}
+
+.inputforaddpostpart:focus{
+    opacity: 0.5;
+    border: 1px solid blue;
+}
+
+#subjectinaddpost{
+    height: 20vh;
+}
+
+#forchangevalueinaddpost{
+    margin: 2vh;
+    padding: 5%;
+    width: 15vw;
+    height: 8vh;
+    border: none;
+    outline: none;
+    background: #4AAD37;
+    border-radius: 5%;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 20%;
+}
+
+#forchangevalueinaddpost:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.forcloseaddpost{
+    width: 2vw;
+    height: 1vh;
+    padding-bottom: 2vh;
+    background-color: rgb(240, 65, 65);
+    border-radius: 15%;
+    color: white;
+    margin-left: 12vw;
+}
+
+.forshowaddpostpartbutton{
+    background-color: #1877F2;
+    padding: 2%;
+    border-radius: 20%;
+    font-size: 1rem;
+    position: relative;
+    top: 35vh;
+    left: 5vw;
+}

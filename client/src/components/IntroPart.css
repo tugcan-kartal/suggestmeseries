@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.allofıntropart{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F0F2F5;
+    height: 97vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightpartinintro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50%;
+    width: 25%;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10%;
+    padding-right: 2vw;
+}
+
+.leftpartinintro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forLogo{
+    width: 20vw;
+    height: 30vh;
+}
+
+.introwrite{
+    width: 40vw;
+    height: 25vh;
+    font-size: 2rem;
+}
+
+.inputinintropart{
+    margin: 2vh;
+    width: 20vw;
+    height: 3vh;
+    border: 1px solid gainsboro;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 5%;
+    color: black;
+    padding: 5%;
+    margin-left: 1vw;
+}
+
+.inputinintropart:focus{
+    opacity: 0.5;
+    border: 1px solid blue;
+}
+
+.buttoninintropart{
+    margin: 2vh;
+    padding: 5%;
+    width: 15vw;
+    height: 8vh;
+    border: none;
+    outline: none;
+    background: gainsboro;
+    border-radius: 5%;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 3vw;
+}
+
+.buttoninintropart:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.firstbuttonintropart{
+    background-color: #166FE5;
+    width: 20vw;
+}
+
+.secondbuttonintropart{
+    background-color: #36A420;
+    margin-left: 5.7vw;
+}
+
+.signuppartinintropart{
+    background-color: white;
+    height: 50%;
+    width: 25%;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 9;
+    position: absolute;
+    right: 38%;
+    top: 25%;
+    display: none;
+}
+
+.buttoninintropartforsignup{
+    margin-left: 19%;
+}
+
+.forclosesignup{
+    width: 2vw;
+    height: 1vh;
+    padding-bottom: 2vh;
+    background-color: rgb(240, 65, 65);
+    margin-left: 45%;
+    position: relative;
+    bottom: 51.5vh;
+    border-radius: 15%;
+    color: white;
+}
